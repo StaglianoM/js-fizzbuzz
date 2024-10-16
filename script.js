@@ -3,7 +3,7 @@
 // multipli di 5 stampo buzz
 // multipli di 3-5 stampo fizzbuzz
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         console.log(`${i}fizzbuzz`);
     } else if (i % 3 === 0) {
